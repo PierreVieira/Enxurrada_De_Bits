@@ -145,8 +145,6 @@ bool apertouQualquerBotao(){
 }
 
 void loop() {
-  vet_sequencia_jogador;
-  vet_sequencia_original;
   gerarSequencia();
   mostrarSequencia();
   apagarLeds();
